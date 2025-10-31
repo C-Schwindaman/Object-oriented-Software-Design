@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<resource xmlns="http://www.wxwidgets.org/wxxrc" version="2.5.3.0">
+	<object class="wxDialog" name="AboutDialog">
+		<style>wxDEFAULT_DIALOG_STYLE</style>
+		<title>About</title>
+		<centered>1</centered>
+		<object class="wxBoxSizer">
+			<orient>wxVERTICAL</orient>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALL</flag>
+				<border>0</border>
+				<object class="wxStaticBitmap" name="m_bitmap1">
+					<bitmap>logo.png</bitmap>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>15</border>
+				<object class="wxStaticText" name="m_staticText2">
+					<style>wxALIGN_CENTER_HORIZONTAL</style>
+					<label>CSE335 wxWidgets \nXRC Project Template</label>
+					<wrap>-1</wrap>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxEXPAND | wxALL</flag>
+				<border>5</border>
+				<object class="wxStaticLine" name="m_staticline1">
+					<style>wxLI_HORIZONTAL</style>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALIGN_CENTER|wxALL</flag>
+				<border>5</border>
+				<object class="wxButton" name="wxID_OK">
+					<label>Ok</label>
+					<default>0</default>
+					<auth_needed>0</auth_needed>
+					<markup>0</markup>
+					<bitmap />
+				</object>
+			</object>
+		</object>
+	</object>
+	<object class="wxDialog" name="MainDialog">
+		<style>wxDEFAULT_DIALOG_STYLE</style>
+		<title>CSE335 Step 0</title>
+		<object class="wxBoxSizer">
+			<orient>wxVERTICAL</orient>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALL</flag>
+				<border>5</border>
+				<object class="wxStaticBitmap" name="m_bitmap2">
+					<bitmap>logo.png</bitmap>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+				<border>5</border>
+				<object class="wxStaticText" name="m_staticText6">
+					<style>wxALIGN_CENTER_HORIZONTAL</style>
+					<font>
+						<size>15</size>
+						<family>swiss</family>
+						<style>normal</style>
+						<weight>normal</weight>
+						<underlined>0</underlined>
+						<face>Lucida Grande</face>
+					</font>
+					<label>Welcome to CSE335!</label>
+					<wrap>-1</wrap>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALIGN_CENTER_HORIZONTAL|wxLEFT|wxRIGHT|wxTOP</flag>
+				<border>10</border>
+				<object class="wxStaticText" name="m_staticText61">
+					<style>wxALIGN_CENTER_HORIZONTAL</style>
+					<font>
+						<size>15</size>
+						<family>swiss</family>
+						<style>normal</style>
+						<weight>normal</weight>
+						<underlined>0</underlined>
+						<face>Lucida Grande</face>
+					</font>
+					<label>This is Step 0. If you are seeing this, you have</label>
+					<wrap>-1</wrap>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALIGN_CENTER_HORIZONTAL|wxLEFT|wxRIGHT</flag>
+				<border>5</border>
+				<object class="wxStaticText" name="m_staticText611">
+					<style>wxALIGN_CENTER_HORIZONTAL</style>
+					<font>
+						<size>15</size>
+						<family>swiss</family>
+						<style>normal</style>
+						<weight>normal</weight>
+						<underlined>0</underlined>
+						<face>Lucida Grande</face>
+					</font>
+					<label>successfully installed build tools needed for this course.</label>
+					<wrap>-1</wrap>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALIGN_CENTER_HORIZONTAL|wxLEFT|wxRIGHT|wxTOP</flag>
+				<border>15</border>
+				<object class="wxStaticText" name="m_staticText6111">
+					<style>wxALIGN_CENTER_HORIZONTAL</style>
+					<font>
+						<size>15</size>
+						<family>swiss</family>
+						<style>normal</style>
+						<weight>normal</weight>
+						<underlined>0</underlined>
+						<face>Lucida Grande</face>
+					</font>
+					<label>Use the CSE335 CLion plugin to log into the course</label>
+					<wrap>-1</wrap>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALIGN_CENTER_HORIZONTAL|wxLEFT|wxRIGHT</flag>
+				<border>5</border>
+				<object class="wxStaticText" name="m_staticText61111">
+					<style>wxALIGN_CENTER_HORIZONTAL</style>
+					<font>
+						<size>15</size>
+						<family>swiss</family>
+						<style>normal</style>
+						<weight>normal</weight>
+						<underlined>0</underlined>
+						<face>Lucida Grande</face>
+					</font>
+					<label>website. Then, choose the CSE335 menu option:</label>
+					<wrap>-1</wrap>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+				<border>5</border>
+				<object class="wxStaticText" name="m_staticText611111">
+					<style>wxALIGN_CENTER_HORIZONTAL</style>
+					<font>
+						<size>15</size>
+						<family>swiss</family>
+						<style>normal</style>
+						<weight>bold</weight>
+						<underlined>0</underlined>
+						<face>Lucida Grande</face>
+					</font>
+					<label>About the Plugin...</label>
+					<wrap>-1</wrap>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+				<border>5</border>
+				<object class="wxStaticText" name="m_staticText6111111">
+					<style>wxALIGN_CENTER_HORIZONTAL</style>
+					<font>
+						<size>15</size>
+						<family>swiss</family>
+						<style>normal</style>
+						<weight>normal</weight>
+						<underlined>0</underlined>
+						<face>Lucida Grande</face>
+					</font>
+					<label>Enter the CLioin Plugin Code below.</label>
+					<wrap>-1</wrap>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>1</option>
+				<flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+				<border>30</border>
+				<object class="wxBoxSizer">
+					<orient>wxHORIZONTAL</orient>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>1</option>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>10</border>
+				<object class="wxGridSizer">
+					<rows>2</rows>
+					<cols>2</cols>
+					<vgap>0</vgap>
+					<hgap>0</hgap>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALIGN_RIGHT|wxALL</flag>
+						<border>5</border>
+						<object class="wxStaticText" name="m_staticText9">
+							<label>CLion Plugin Code:</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxTextCtrl" name="CLionPluginCode">
+							<size>150,-1</size>
+							<value></value>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALIGN_RIGHT|wxALL</flag>
+						<border>5</border>
+						<object class="wxStaticText" name="MagicNumberPrompt">
+							<label>Your Magic Number:</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxStaticText" name="MagicNumber">
+							<label></label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxEXPAND | wxALL</flag>
+				<border>5</border>
+				<object class="wxStaticLine" name="m_staticline2">
+					<style>wxLI_HORIZONTAL</style>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALIGN_CENTER_HORIZONTAL</flag>
+				<border>5</border>
+				<object class="wxBoxSizer">
+					<orient>wxHORIZONTAL</orient>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALL</flag>
+						<border>10</border>
+						<object class="wxButton" name="wxID_OK">
+							<label>Ok</label>
+							<default>0</default>
+							<auth_needed>0</auth_needed>
+							<markup>0</markup>
+							<bitmap />
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALL</flag>
+						<border>10</border>
+						<object class="wxButton" name="CloseButton">
+							<label>Close</label>
+							<default>0</default>
+							<auth_needed>0</auth_needed>
+							<markup>0</markup>
+							<bitmap />
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</resource>
